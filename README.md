@@ -1,8 +1,12 @@
 # ACIKTIM - Yapay Zeka Destekli Restoran Web Sitesi
 
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Gemini API](https://img.shields.io/badge/Gemini_API-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://ai.google.dev/)
+
 Bu proje, "ACIKTIM" adlı kurgusal bir restoran için React, TypeScript ve Tailwind CSS ile geliştirilmiş modern, tek sayfa (Single Page Application) bir web sitesi konseptidir. Sitenin en dikkat çekici özelliği, Google Gemini API'si ile güçlendirilmiş, kullanıcının ruh haline veya isteklerine göre kişiselleştirilmiş menü önerileri sunan bir yapay zeka danışmanıdır.
-
-
 
 ## ✨ Özellikler
 
@@ -54,6 +58,7 @@ Bu projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izley
 2.  **Gerekli paketleri yükleyin:**
     ```bash
     npm install
+    # veya
     yarn install
     ```
 
@@ -69,6 +74,7 @@ Bu projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izley
 4.  **Geliştirme sunucusunu başlatın:**
     ```bash
     npm run dev
+    # veya
     yarn dev
     ```
 

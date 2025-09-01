@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import type { MenuItem, RecommendationResponse } from '../types';
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY! });
+const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 export const getMenuRecommendation = async (userInput: string, menuData: MenuItem[]): Promise<RecommendationResponse> => {
   const menuString = menuData.map(item => `${item.name}: ${item.description}`).join('\n');
